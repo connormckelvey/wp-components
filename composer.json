@@ -1,9 +1,12 @@
 {
-    "name": "connormckelvey/wp-components",
+    "name": "connormckelvey/wordpress-components",
+    "require": {
+        "timber/timber": "^0.22.6"
+    },
     "authors": [
         {
             "name": "Connor McKelvey",
             "email": "connormckelvey@gmail.com"
         }
-    ],
+    ]
 }
