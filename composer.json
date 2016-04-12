@@ -1,12 +1,38 @@
 {
-    "name": "connormckelvey/wordpress-components",
-    "require": {
-        "timber/timber": "^0.22.6"
-    },
-    "authors": [
-        {
-            "name": "Connor McKelvey",
-            "email": "connormckelvey@gmail.com"
-        }
+  "name": "connormckelvey/wp-components",
+  "type": "library",
+  "description": "Helper Classes for Scalable Wordpress Components",
+  "keywords": [
+    "timber",
+    "Components",
+    "worpdress",
+    "themes"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Connor McKelvey",
+      "email": "connormckelvey@gmail.com",
+      "homepage": "http://www.connormckelvey.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/connormckelvey/wp-components/issues",
+    "source": "https://github.com/connormckelvey/wp-components"
+  },
+  "require": {
+    "php": ">=5.6",
+    "timber/timber": "^0.22.6"
+  },
+  "autoload": {
+    "classmap": [
+      "lib/"
     ]
+  },
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/connormckelvey/wp-components"
+      }
+  ],
 }

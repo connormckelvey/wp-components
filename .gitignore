@@ -1,2 +1,12 @@
 vendor
 wp-content
+composer.lock
+lib/Components
+lib/Containers
+lib/Templates
+header.php
+footer.php
+index.php
+page.php
+functions.php
+style.css
